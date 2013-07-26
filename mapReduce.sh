@@ -11,5 +11,5 @@ $HSTREAMING \
  -reducer 'ruby reduce.rb' \
  -file map.rb \
  -file reduce.rb \
- -input '/user/cloudera/data/input' \
+ -input '/user/cloudera/data/splitInput' \
  -output /user/cloudera/data/output
