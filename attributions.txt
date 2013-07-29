@@ -1,0 +1,7 @@
+(material borrowed was generally in the public domain, let me know if we've infringed on any rights in error)
+* Hadoop: The Definitive Guide- Tom White
+* http://www.bigfastblog.com/map-reduce-with-ruby-using-hadoop
+* http://bradhedlund.com/2011/09/10/understanding-hadoop-clusters-and-the-network/
+* besides the Hadoop documentation and excellent distribution from Cloudera
+
+END-OF-FILE
