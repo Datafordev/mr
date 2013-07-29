@@ -1,0 +1,37 @@
+We handed out pen drives that had some software you can install to run a Hadoop cluster. The readme from the pen drive is reproduced below:
+
+This has installables for:
+a) VirtualBox: to run VMs
+b) A Cloudera VM to run Hadoop
+
+Choose the version for your environment.
+
+VirtualBox:
+==========
+Windows: VirtualBox-4.2.16-86992-Win.exe
+Ubuntu 12.10 ("Quantal Quetzal"): virtualbox-4.2_4.2.16-86992~Ubuntu~quantal_amd64.deb
+Ubuntu 13.04 ("Raring Ringtail"): virtualbox-4.2_4.2.16-86992~Ubuntu~raring_amd64.deb
+
+If this does not match your needs, try https://www.virtualbox.org/wiki/Downloads
+
+VM:
+==
+cloudera-quickstart-vm-4.3.0-virtualbox.tar.gz
+
+Install VirtualBox, copy and extract the VM to a local folder, then 'Import Appliance' from VirtualBox and choose the .ovf file for the VM
+VMs typically need several GB of memory.
+Once imported, edit the settings to the set the Network Adapter to "Bridged Adapter"
+
+Start the VM, then do a 
+https://github.com/krishnan-mani/mr.git
+
+==Output from an 'ls -l' on the pen drive below==
+
+total 5452688
+-rwxrwxrwx  1 km  staff         846 Jul 26 18:04 README.txt
+-rwxrwxrwx@ 1 km  staff    99776784 Jul 26 11:40 VirtualBox-4.2.16-86992-Win.exe
+-rwxrwxrwx@ 1 km  staff  2563732166 Jul 26 00:30 cloudera-quickstart-vm-4.3.0-virtualbox.tar.gz
+-rwxrwxrwx@ 1 km  staff    64125804 Jul 26 08:38 virtualbox-4.2_4.2.16-86992~Ubuntu~quantal_amd64.deb
+-rwxrwxrwx@ 1 km  staff    64127134 Jul 26 11:24 virtualbox-4.2_4.2.16-86992~Ubuntu~raring_amd64.deb
+
+END-OF-FILE
