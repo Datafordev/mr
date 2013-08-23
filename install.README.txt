@@ -1,7 +1,7 @@
 We handed out pen drives that had some software you can install to run a Hadoop cluster. The readme from the pen drive is reproduced below:
 
 This has installables for:
-a) VirtualBox: to run VMs
+a) VirtualBox: to run VMs (you might try VMware and KVM, but i haven't yet)
 b) A Cloudera VM to run Hadoop
 
 Choose the version for your environment.
@@ -17,6 +17,9 @@ If this does not match your needs, try https://www.virtualbox.org/wiki/Downloads
 VM:
 ==
 cloudera-quickstart-vm-4.3.0-virtualbox.tar.gz
+
+You can download VMs from (the link works for me on 23rd Aug 2013):
+http://www.cloudera.com/content/support/en/downloads/download-components/download-products.html?productID=F6mO278Rvo&version=2
 
 Install VirtualBox, copy and extract the VM to a local folder, then 'Import Appliance' from VirtualBox and choose the .ovf file for the VM
 VMs typically need several GB of memory.
