@@ -1,7 +1,7 @@
 station_location_strings = load 'ghcnd-stations.txt' as (x:chararray);
 
 station_location_info = foreach station_location_strings generate 
-		SUBSTRING(x, 0, 10) as station_id,
+		SUBSTRING(x, 0, 11) as station_id,
 		SUBSTRING(x, 12, 19) as station_lat,
 		SUBSTRING(x, 21, 29) as station_long,
 		SUBSTRING(x, 41, 70) as station_name;
