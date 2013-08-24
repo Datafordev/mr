@@ -12,3 +12,16 @@ hadoop fs -put words/* /user/cloudera/data/splitInput/
 
 3) Using MapReduce on Hadoop:
 ./mapReduce.sh
+
+(Instructions from part 2 meetup. See http://www.meetup.com/expertalks/events/132508222/)
+
+See the data, pig scripts, and awk scripts under m2
+
+# To run pig in local mode, ensure the file is available on the local filesystem at the path specified and use
+$ pig -x local pigScript.pig
+
+# To run pig with Hadoop, ensure the file to load is in HDFS, and use:
+$ hadoop fs -put dataInputFile
+$ pig pigScript.pig
+
+END-OF-FILE
